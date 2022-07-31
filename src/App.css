@@ -4,5 +4,7 @@
 
 body {
   @apply bg-gray-bg text-gray-100;
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
 }

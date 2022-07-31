@@ -63,7 +63,7 @@ function TaskList() {
 	}, [tasks])
 
 	return (
-		<div className='max-w-[46.25rem] flex justify-center m-auto px-4 flex-col'>
+		<div className='max-w-[46.25rem] flex justify-center mx-auto px-4 flex-col'>
 
 			<AddTaskBar onClickAddNewTask={AddNewTask} />
 			
